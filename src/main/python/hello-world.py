@@ -7,9 +7,9 @@ config = {
 try:
   client = aerospike.client(config).connect()
 
+  # (namespace, set, user defined key)
   key = ('test', 'demo', 'foo')
-  print('Working with record key ', key)
-
+  
   client.put(key, {'name': 'John Doe', 'age': 32, 'greeting': 'Hello, World!' })
   (key, metadata, record) = client.get(key)
 
