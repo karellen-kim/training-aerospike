@@ -1,0 +1,43 @@
+[[package]]
+name = "aerospike"
+version = "11.1.0"
+description = "Aerospike Client Library for Python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "py4j"
+version = "0.10.9.7"
+description = "Enables Python programs to dynamically access arbitrary Java objects"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "pyspark"
+version = "3.4.1"
+description = "Apache Spark Python API"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+py4j = "0.10.9.7"
+
+[package.extras]
+connect = ["googleapis-common-protos (>=1.56.4)", "grpcio-status (>=1.48.1)", "grpcio (>=1.48.1)", "numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
+ml = ["numpy (>=1.15)"]
+mllib = ["numpy (>=1.15)"]
+pandas_on_spark = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
+sql = ["numpy (>=1.15)", "pandas (>=1.0.5)", "pyarrow (>=1.0.0)"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.11"
+content-hash = "39d8f8c585b77e7e7a79f857f43f885d45726f4af38a768754f96fb425a980a8"
+
+[metadata.files]
+aerospike = []
+py4j = []
+pyspark = []

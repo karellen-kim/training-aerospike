@@ -1,0 +1,11 @@
+JMH S 18 test.ReadBenchmark S 48 test.generated.ReadBenchmark_read400Keys_jmhTest S 11 read400Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 47 test.generated.ReadBenchmark_read10Keys_jmhTest S 10 read10Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 49 test.generated.ReadBenchmark_read2000Keys_jmhTest S 12 read2000Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 48 test.generated.ReadBenchmark_read100Keys_jmhTest S 11 read100Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 48 test.generated.ReadBenchmark_read600Keys_jmhTest S 11 read600Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 44 test.generated.ReadBenchmark_readAll_jmhTest S 7 readAll S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 48 test.generated.ReadBenchmark_read200Keys_jmhTest S 11 read200Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 49 test.generated.ReadBenchmark_read1000Keys_jmhTest S 12 read1000Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 44 test.generated.ReadBenchmark_readOne_jmhTest S 7 readOne S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 48 test.generated.ReadBenchmark_read800Keys_jmhTest S 11 read800Keys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
+JMH S 18 test.ReadBenchmark S 49 test.generated.ReadBenchmark_readHalfKeys_jmhTest S 12 readHalfKeys S 11 AverageTime E A 1 1 1 E I 1 0 E E I 1 5 T 3 1 s E I 1 1 E E E E E E U 12 MILLISECONDS E E 
