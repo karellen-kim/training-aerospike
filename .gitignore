@@ -1,4 +1,12 @@
-/.idea/
-/build/
-/.gradle/
+.idea
+build/
+.gradle/
 /python/.venv/
+.env
+.venv
+.pytest_cache
+.benchmarks
+/kotlin/.gradle/
+/kotlin/build/
+/python/.idea/
+/kotlin/build/

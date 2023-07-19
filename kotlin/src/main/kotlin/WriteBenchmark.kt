@@ -46,7 +46,7 @@ class WriteBenchmark {
 
     @Setup
     fun before() {
-        client = AerospikeClient("127.0.0.1", 3000)
+        client = AerospikeClient(BenchmarkEnv.HOST, 3000)
     }
 
     @TearDown

@@ -23,7 +23,7 @@ import java.util.concurrent.*
 @BenchmarkMode(Mode.AverageTime)
 @OutputTimeUnit(TimeUnit.MILLISECONDS)
 @Measurement(
-    iterations = 5, // 측정 반복 횟수
+    iterations = 10, // 측정 반복 횟수
     time = 1,
     timeUnit = TimeUnit.SECONDS)
 class ReadBenchmark {

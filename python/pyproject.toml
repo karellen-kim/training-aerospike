@@ -8,7 +8,8 @@ authors = ["karellen-kim <karellen.kim@gmail.com>"]
 python = "^3.11"
 aerospike = "^11.1.0"
 pyspark = "^3.4.1"
-jupyter = "^1.0.0"
+pytest-benchmark = "^4.0.0"
+load-dotenv = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
 

@@ -1,24 +1,30 @@
 import aerospike
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+host = os.getenv("HOST")
+namespace = os.getenv("NAMESPACE")
 
 config = {
-  'hosts': [ ('127.0.0.1', 3000) ]
+  'hosts': [ (host, 3000) ]
 }
 
 try:
   client = aerospike.client(config).connect()
 
   # (namespace, set, user defined key)
-  key = ('test', 'demo', 'foo')
+  key = (namespace, 'demo', 'foo')
   
   client.put(key, {'name': 'John Doe', 'age': 32, 'greeting': 'Hello, World!' })
   (key, metadata, record) = client.get(key)
+  print("Metadata is", metadata)
+  print("Record contents are", record)
 
-  print("Key's components are", key)
+  (key, metadata, record) = client.select(key, ["name", "age"])
   print("Metadata is", metadata)
   print("Record contents are", record)
 
   client.close()
-except:
-  import sys
-  print("Failed to connect to the cluster with", config['hosts'])
-  sys.exit(1)
+except Exception as e :
+  print(e.msg)
